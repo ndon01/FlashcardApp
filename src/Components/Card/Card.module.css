@@ -1,0 +1,75 @@
+/* Styles for elements with the class "Card" */
+.Card {
+    background-color: transparent; /* Transparent background */
+    width: 450px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    perspective: 1000px; /* Perspective for 3D transformation */
+    font-size: larger; /* Font size */
+}
+
+/* Styles for the "Card" element on hover */
+.Card:hover {
+    cursor: pointer; /* Cursor change on hover */
+}
+
+.Card:hover .CardInner {
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3); /* Box shadow */
+
+}
+
+/* Styles for the "CardInner" element */
+.CardInner {
+    position: relative; /* Relative positioning */
+    width: 100%; /* Take up 100% of available width */
+    height: 100%; /* Take up 100% of available height */
+    text-align: center; /* Center-align text */
+    transition: transform 0.6s; /* Smooth transformation */
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border-radius: 10px; /* Rounded corners */
+    border: 0.001px solid rgba(0, 0, 0, 0.2); /* Very light border */
+}
+
+/* Styles for the "CardInner" element when flipped */
+.CardInnerFlip {
+    transform: rotateY(180deg); /* Rotate 180 degrees on the Y-axis for flipping */
+}
+
+/* Styles for "CardFront" and "CardBack" elements */
+.CardFront, .CardBack {
+    position: absolute; /* Absolute positioning within "CardInner" */
+    width: 100%; /* Take up 100% of available width */
+    height: 100%; /* Take up 100% of available height */
+
+    -webkit-backface-visibility: hidden; /* Hide the backface in WebKit browsers */
+    backface-visibility: hidden; /* Hide the backface */
+    border-radius: 10px; /* Rounded corners */
+    border: 0.001px solid rgba(0, 0, 0, 0.2); /* Very light border */
+}
+
+/* Styles for the "CardFront" element */
+.CardFront {
+    display: flex; /* Use flex layout */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center-align text */
+    background-color: whitesmoke; /* Background color */
+    color: black; /* Text color */
+}
+
+/* Styles for the "CardBack" element */
+.CardBack {
+    display: flex; /* Use flex layout */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center-align text */
+    background-color: whitesmoke; /* Background color */
+    color: black; /* Text color */
+    transform: rotateY(180deg); /* Rotate 180 degrees on the Y-axis for flipping */
+    text-wrap: balance; /* Text wrap behavior */
+}
+
+/* Styles for elements with the class "CardText" */
+.CardText {
+    padding-inline: 60px; /* Horizontal padding for text */
+}

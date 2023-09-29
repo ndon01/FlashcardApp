@@ -1,0 +1,52 @@
+/* Styles for elements with the class "Page" */
+.Page {
+  display: flex; /* Use flex layout */
+  justify-content: center; /* Center content horizontally */
+  flex-direction: column; /* Arrange content in a column */
+  align-items: center; /* Center content vertically */
+
+  padding-left: 200px; /* Add left padding */
+  padding-right: 200px; /* Add right padding */
+
+  min-height: 100vh; /* Ensure a minimum height of 100% of the viewport height */
+}
+
+/* Styles for elements with the class "ChangeCardArea" */
+.ChangeCardArea {
+  margin-top: 14px; /* Add top margin */
+}
+
+/* Styles for child div elements within elements with the class "ChangeCardArea" */
+.ChangeCardArea div {
+  display: inline; /* Display div elements inline */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin: 5px; /* Add margin around div elements */
+}
+
+/* Styles for elements with the class "Button" */
+.Button {
+  background-color: whitesmoke; /* Set background color */
+  margin: 5px; /* Add margin around the button */
+  padding-left: 10px; /* Add left padding */
+  padding-right: 10px; /* Add right padding */
+  padding-top: 6px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  border-radius: 100%; /* Make the button round */
+  border: 0.001px solid rgba(0, 0, 0, 0.2); /* Add a very light border */
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Styles for elements with the class "Button" on hover */
+.Button:hover {
+  cursor: pointer; /* Change cursor on hover to indicate interactivity */
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+/* Styles for elements with the class "indexMarker" */
+.indexMarker {
+  display: inline; /* Display inline */
+  padding-inline: 5px; /* Add horizontal padding */
+  margin-inline: 4px; /* Add horizontal margin */
+  min-width: 20px; /* Set a minimum width */
+}

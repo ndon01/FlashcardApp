@@ -1,0 +1,63 @@
+/* Styles for elements with the class "CardCreationContainer" */
+.CardCreationContainer {
+    margin-top: 100px; /* Top margin */
+    margin-bottom: 50px; /* Bottom margin */
+    background-color: transparent; /* Transparent background */
+}
+
+/* Styles for elements with the class "CardCreationTitle" */
+.CardCreationTitle {
+    padding: 10px; /* Padding around the title */
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+    background-color: white; /* White background */
+    max-width: 85px; /* Maximum width */
+    text-align: center; /* Center-align text */
+    z-index: 1; /* Stacking order */
+}
+
+/* Styles for elements with the class "CardCreationBody" */
+.CardCreationBody {
+    padding: 15px; /* Padding around the body */
+    background-color: white; /* White background */
+    display: flex; /* Use flex layout */
+    flex-direction: row; /* Arrange content in a row */
+
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+    border-bottom-left-radius: 10px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 10px; /* Rounded bottom-right corner */
+
+    z-index: 2; /* Stacking order */
+}
+
+/* Styles for elements with the class "CardCreationInputContainer" */
+.CardCreationInputContainer {
+    margin-inline: 10px; /* Horizontal margin */
+}
+
+/* Apply margin-right to all elements within elements with the class "CardCreationInputContainer" */
+.CardCreationInputContainer * {
+    margin-right: 5px; /* Right margin */
+}
+
+/* Styles for elements with the class "CardCreationInputTitle" */
+.CardCreationInputTitle {
+    justify-content: left; /* Left-align content */
+    margin-bottom: 5px; /* Bottom margin */
+}
+
+/* Styles for button elements within elements with the class "CardCreationContainer" */
+.CardCreationContainer button {
+    margin-right: 0px; /* Right margin (overriding the margin-right for all elements within) */
+}
+
+/* Styles for elements with the class "DefinitionTextArea" */
+.DefinitionTextArea {
+    width: 150px; /* Set width */
+    height: 50px; /* Set height */
+
+    min-width: 150px; /* Minimum width */
+    max-width: 200px; /* Maximum width */
+    min-height: 50px; /* Minimum height */
+    max-height: 100px; /* Maximum height */
+}

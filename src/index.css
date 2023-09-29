@@ -1,0 +1,17 @@
+/* Set the height of the HTML element to 100% of the viewport height */
+html {
+    height: 100%;
+}
+
+/* Apply a linear gradient background to the entire body */
+body {
+    background-image: linear-gradient(antiquewhite, whitesmoke);
+    margin: 0; /* Remove default body margin */
+    min-height: 100%; /* Ensure the body fills at least the viewport height */
+}
+
+/* Style the element with the id 'root' */
+#root {
+    position: relative; /* Use relative positioning */
+    min-height: 100vh; /* Ensure 'root' takes at least the full viewport height */
+}
