@@ -1,18 +1,29 @@
-# Flashcard App
+# Web Development Project 2 - *Flashcard App*
 
-Welcome to the my Flashcard App! This app allows you to create and manage your flashcards for effective learning.
+Submitted by: **Nicholas Donahue**
 
-## Table of Contents
+This web app: **Study Flashcards**
 
-- [Features](#features)
-- [Getting Started](#getting-started)
+Time spent: **3** hours spent in total
 
-## Features
+## Required Features
 
-- View pre created flashcards
-- Flip cards to view answers.
-- Study and test your knowledge.
-- User-friendly interface.
+The following functionality is completed:
+
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+!["Video Walkthrough"](https://github.com/ndon01/FlashcardApp/blob/master/8iqTUbAd.gif)
+
+
+## Notes
 
 ## Getting Started
 
@@ -32,4 +43,19 @@ These instructions will help you set up and run the Flashcard App locally on you
    npm install
    npm start
    ```
-   
+
+## License
+
+    Copyright [2023] [Nicholas Donahue]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
